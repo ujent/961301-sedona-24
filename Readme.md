@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Юлия Адерихо](https://up.htmlacademy.ru/htmlcss/24/user/961301).
-* Наставник: `Неизвестно`.
+- Студент: [Юлия Адерихо](https://up.htmlacademy.ru/htmlcss/24/user/961301).
+- Наставник: [Вадим Новаш](https://htmlacademy.ru/profile/stakeout).
 
 ---
 
