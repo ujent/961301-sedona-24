@@ -9,8 +9,10 @@
 <body>
   <header class="site-header">
     <nav class="site-navigation">
-      <img src="img/logo.jpeg" width="140" height="72" alt="Логотип">
-      <ul>
+      <div>
+        <img src="img/logo.jpeg" width="140" height="72" alt="Логотип">
+      </div>
+      <ul class="navigation-list">
         <li><a href="info.html">Информация</a></li>
         <li><a href="media.html">Фото и видео</a></li>
         <li><a href="statemap.html">Карта штата</a></li>
@@ -18,26 +20,32 @@
       </ul>
     </nav>
   </header>
-  <main class="container">
-    <h1 class="visually-hidden">Седона</h1>
-    <section class="sedona-intro">
-      <h2 class="visually-hidden"> Welcome to Sedona</h2>
-      <p>
-        <img src="img/welcome.jpeg" alt="Welcome to Sedona" width="459" height="353">
-      </p>
-      <p>Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
-      <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-    </section>
-    <section class="sedona-search-form">
-      <h2>Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-      <button class="button search-button">Поиск гостиницы в Седоне</button>
-    </section>
+  <main class="site-content">
+    <div class="content">
+      <h1 class="visually-hidden">Седона</h1>
+      <section class="sedona-intro">
+        <h2 class="visually-hidden">Welcome to Sedona</h2>
+        <p>
+          <img src="img/welcome.jpeg" alt="Welcome to Sedona" width="459" height="353">
+        </p>
+        <p>Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+      </section>
+      <section class="sedona-search-form">
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <!-- this button just opens the modal window -->
+        <button type="button" class="button search-button">Поиск гостиницы в Седоне</button>
+      </section>
+      <section class="state-map">
+        <!-- здесь будет карта -->
+      </section>
+    </div>
   </main>
   <footer class="site-footer">
     <p class="footer-hashtag">#VisitSedona</p>
     <div class="footer-social">
-      <ul>
+      <ul class="socials-list">
         <li><a class="social-button" href="#">Twitter</a></li>
         <li><a class="social-button" href="#">Facebook</a></li>
         <li><a class="social-button" href="#">Youtube</a></li>
