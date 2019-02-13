@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+
+  font-size: 14px;
+  font-family: 'PT Sans', Arial, sans-serif;
+  line-height: 26px;
+  font-weight: normal;
+  color: #333333;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  background-color: #81b3d2;
+  border: none;
+  /* width: 110px;
+  height: 27px; */
+}
+
+.button:focus,
+.button:hover {
+  background-color: #669ec0;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
+.site-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation .navigation-list {
+  list-style: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation a.current-page {
+  color: #766357;
+}
+
+.sedona-intro {
+  background-color: #ffffff;
+}
+
+.sedona-intro b {
+  font-weight: bold;
+  font-size: 21px;
+  color: #000000;
+}
+
+.intro-welcome {
+  background-color: #ffffff;
+  background-image: url('../img/background-photo.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 432px;
+  padding-top: 76px;
+}
+
+.sedona-search-form {
+  line-height: 24px;
+}
+
+.sedona-search-form h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #000000;
+  line-height: 36px;
+}
+
+.sedona-search-form .search-button {
+  background-color: #766357;
+  font-size: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  height: 86px;
+  width: 568px;
+}
+
+.sedona-search-form .search-button:focus,
+.sedona-search-form .search-button:hover {
+  background-color: #604e43;
+}
+
+.sedona-search-form .search-button:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-hashtag {
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.footer-copyright b {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.socials-list {
+  list-style: none;
+}
+
+.social-button {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.social-button:hover,
+.social-button:focus {
+  width: 46px;
+  height: 48px;
+  background-color: #669ec0;
+}
+
+.social-button:active {
+  width: 46px;
+  height: 48px;
+  background-color: #5496bd;
+}
+
+.modal-search {
+  display: none;
+}
+
+.modal-search input {
+  font: inherit;
+}
+
+.hotels-list {
+  list-style: none;
+}
+
+.hotel-button-booking {
+  background-color: #766357;
+  color: #ffffff;
+}
+
+.hotel-button-booking:hover,
+.hotel-button-booking:focus {
+  background-color: #604e43;
+  color: #ffffff;
+}
+
+.hotel-button-booking:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.hotel-item-description {
+  text-align: left;
+}
+
+.hotel-item-description h2 {
+  font-size: 21px;
+  font-weight: bold;
+  text-align: left;
+  color: #000000;
+}
+
+.hotel-item-description h2:focus,
+.hotel-item-description h2:hover {
+  color: #81b3d2;
+}
+
+.hotel-item-description h2:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hotel-item-description p {
+  line-height: 21px;
+}
+
+.hotel-rate {
+  background-color: #f2f2f2;
+  color: #666666;
+  line-height: 21px;
+  text-align: center;
+  vertical-align: middle;
+
+  width: 110px;
+  height: 27px;
+}
