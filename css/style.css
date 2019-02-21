@@ -14,6 +14,14 @@ a {
   text-decoration: none;
 }
 
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
 .site-wrapper {
   background-color: #ffffff;
   width: 1200px;
@@ -64,8 +72,6 @@ a {
   width: 140px;
   height: 72px;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -74,6 +80,7 @@ a {
   position: relative;
   font-weight: bold;
   color: #000000;
+  padding: 0 74px;
 }
 
 .site-navigation a {
@@ -92,11 +99,11 @@ a {
 }
 
 .navigation-list li {
-  width: 20%;
+  width: 25%;
 }
 
 .navigation-list li:nth-child(2) {
-  margin-right: 20%;
+  padding-right: 90px;
 }
 
 .site-navigation a:hover,
