@@ -83,34 +83,33 @@
                 class="hotel-search-form"
                 action="https://echo.htmlacademy.ru"
               >
-                <p class="hotel-search-item arrival-date">
-                  <label for="arrivalDate">Дата заезда:</label>
+                <div class="hotel-search-item arrival-date">
+                  <label for="arrival-date">Дата заезда:</label>
                   <input
                     type="text"
-                    id="arrivalDate"
+                    id="arrival-date"
                     name="arrival"
                     value="24 апреля 2017"
                   />
                   <button type="button" class="calendar-button">
                     <span class="visually-hidden">Календарь</span>
                   </button>
-                </p>
-                <p class="hotel-search-item departure-date">
-                  <label for="departureDate">Дата выезда:</label>
+                </div>
+                <div class="hotel-search-item departure-date">
+                  <label for="departure-date">Дата выезда:</label>
                   <input
                     type="text"
-                    id="departureDate"
+                    id="departure-date"
                     name="departure"
                     value="4 июля 2017"
                   />
                   <button type="button" class="calendar-button">
                     <span class="visually-hidden">Календарь</span>
                   </button>
-                </p>
-                <div class="people-count">
-                  <p class="hotel-search-item adults-num">
-                    <label for="adultsNum">Взрослые:</label>
-                    <input type="text" id="adultsNum" name="adults" value="2" />
+                </div>
+                <div class="hotel-search-item adults-num">
+                  <label for="adults-num">Взрослые:</label>
+                  <div class="number-button-wrapper">
                     <button
                       type="button"
                       class="number-button minus-button"
@@ -118,6 +117,13 @@
                     >
                       <span>&#8211;</span>
                     </button>
+                    <input
+                      type="text"
+                      id="adults-num"
+                      name="adults"
+                      value="2"
+                    />
+
                     <button
                       type="button"
                       class="number-button plus-button"
@@ -125,22 +131,25 @@
                     >
                       <span>+</span>
                     </button>
-                  </p>
-                  <p class="hotel-search-item children-num">
-                    <label for="childrenNum">Дети:</label>
+                  </div>
+                </div>
+                <div class="hotel-search-item children-num">
+                  <label for="children-num">Дети:</label>
+                  <div class="number-button-wrapper">
+                    <button
+                      type="button"
+                      class="number-button minus-button"
+                      aria-label="Уменьшить"
+                    >
+                      <span>&#8211;</span>
+                    </button>
                     <input
                       type="text"
-                      id="childrenNum"
+                      id="children-num"
                       name="children"
                       value="0"
                     />
-                    <button
-                      type="button"
-                      class="number-button minus-button"
-                      aria-label="Уменьшить"
-                    >
-                      <span>&#8211;</span>
-                    </button>
+
                     <button
                       type="button"
                       class="number-button plus-button"
@@ -148,7 +157,7 @@
                     >
                       <span>+</span>
                     </button>
-                  </p>
+                  </div>
                 </div>
 
                 <button type="submit" class="button hotel-search-button">
