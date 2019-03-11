@@ -19,6 +19,21 @@ img {
   height: auto;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(-86px);
+  }
+  70% {
+    transform: translateY(30px);
+  }
+  90% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .align-right {
   text-align: right;
 }
@@ -156,7 +171,7 @@ input[type='radio'].visually-hidden {
   background-image: url('../img/intro-mask.svg');
   background-position: bottom center;
   background-repeat: no-repeat;
-  height: 59px;
+  height: 62px;
   margin-top: 14px;
 }
 
@@ -295,7 +310,7 @@ input[type='radio'].visually-hidden {
   font-size: 30px;
   color: #000000;
   line-height: 36px;
-  margin: 48px 0 22px 0;
+  margin: 48px 0 26px 0;
 }
 
 .sedona-search-form p {
@@ -439,6 +454,7 @@ input[type='radio'].visually-hidden {
 }
 
 .modal-search {
+  display: none;
   position: absolute;
   top: 292px;
 
@@ -452,6 +468,12 @@ input[type='radio'].visually-hidden {
   font-weight: bold;
 
   padding: 55px;
+}
+
+.modal-search.open {
+  display: block;
+  animation-name: bounce;
+  animation-duration: 0.4s;
 }
 
 .hotel-search-form {
@@ -609,6 +631,7 @@ input[type='radio'].visually-hidden {
 .hotel-filters-form fieldset {
   border: none;
   display: flex;
+  flex-direction: column;
   padding: 0;
 }
 
