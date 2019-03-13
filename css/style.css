@@ -359,7 +359,6 @@ input[type='radio'].visually-hidden {
 .footer-social {
   display: flex;
   width: 67%;
-  justify-content: space-around;
 }
 
 .footer-hashtag {
@@ -380,8 +379,8 @@ input[type='radio'].visually-hidden {
   font-weight: normal;
   text-align: center;
   color: #000000;
-  margin-top: 6px;
-  margin-right: 6px;
+  margin-top: 8px;
+  margin-right: 8px;
 }
 
 .footer-copyright:hover path,
@@ -396,7 +395,7 @@ input[type='radio'].visually-hidden {
 .socials-list {
   list-style: none;
   padding: 0;
-  margin: 0 0 0 20px;
+  margin: 0 224px 0 126px;
 
   display: flex;
 }
@@ -493,7 +492,7 @@ input[type='radio'].visually-hidden {
   height: 38px;
   width: 346px;
 
-  border: none;
+  border: 2px solid #f2f2f2;
   background-color: #f2f2f2;
 
   box-sizing: border-box;
@@ -514,6 +513,12 @@ input[type='radio'].visually-hidden {
   padding-right: 40px;
 }
 
+.arrival-date label,
+.departure-date label {
+  width: 112px;
+  text-align: left;
+}
+
 .modal-search .calendar-button {
   position: absolute;
   right: 10px;
@@ -526,6 +531,8 @@ input[type='radio'].visually-hidden {
   width: 21px;
   height: 22px;
   outline: none;
+
+  cursor: pointer;
 }
 
 .calendar-button:focus,
@@ -570,6 +577,8 @@ input[type='radio'].visually-hidden {
   border: none;
   padding: 0;
   outline: none;
+
+  cursor: pointer;
 }
 
 .number-button:focus,
@@ -595,7 +604,7 @@ input[type='radio'].visually-hidden {
   height: 58px;
   font-size: 21px;
   line-height: 26px;
-  margin-top: 26px;
+  margin-top: 28px;
 }
 
 /* hotels page */
@@ -648,12 +657,12 @@ input[type='radio'].visually-hidden {
 
 .hotel-filters-checkbox {
   font-size: 14px;
-  line-height: 21px;
-  margin-bottom: 26px;
+  line-height: 24px;
+  margin-bottom: 23px;
   text-align: left;
 }
 
-.hotel-filters-checkbox input[type='checkbox'] + .checkbox-indicator {
+input[type='checkbox'] + .hotel-filters-checkbox > .checkbox-indicator {
   position: absolute;
   top: 0;
   left: 0;
@@ -664,11 +673,13 @@ input[type='radio'].visually-hidden {
   height: 23px;
 }
 
-.hotel-filters-checkbox input[type='checkbox']:disabled + .checkbox-indicator {
+input[type='checkbox']:disabled
+  + .hotel-filters-checkbox
+  > .checkbox-indicator {
   opacity: 0.3;
 }
 
-.hotel-filters-checkbox input[type='checkbox']:checked + .checkbox-indicator {
+input[type='checkbox']:checked + .hotel-filters-checkbox > .checkbox-indicator {
   position: absolute;
   top: 0;
   left: 0;
@@ -677,6 +688,10 @@ input[type='radio'].visually-hidden {
   background-repeat: no-repeat;
   width: 27px;
   height: 23px;
+}
+
+input[type='checkbox']:focus + .hotel-filters-checkbox {
+  outline: 1px solid white;
 }
 
 .hotel-filters-form .right-col {
@@ -738,7 +753,7 @@ input[type='text'].hotel-price-to {
   position: relative;
 
   margin-bottom: 32px;
-  margin-top: 22px;
+  margin-top: 18px;
 }
 
 .price-scale {
@@ -796,6 +811,7 @@ input[type='text'].hotel-price-to {
   line-height: 21px;
   text-transform: uppercase;
   text-align: center;
+  margin-right: 10px;
 
   cursor: pointer;
 }
