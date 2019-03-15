@@ -370,10 +370,8 @@ input[type='radio'].visually-hidden {
 
 .site-footer {
   display: flex;
-  align-items: center;
 
   min-height: 120px;
-  /* height: 60px; */
   margin-top: -120px;
   background: white;
   opacity: 0.9;
@@ -384,7 +382,7 @@ input[type='radio'].visually-hidden {
 }
 
 .site-footer p {
-  margin: 0;
+  margin: 44px 0 0 0;
 }
 
 .footer-social {
@@ -406,7 +404,7 @@ input[type='radio'].visually-hidden {
 
 p.footer-copyright {
   padding-left: 40px;
-  margin: auto;
+  margin-top: 38px;
   display: flex;
   min-width: 50%;
   box-sizing: border-box;
@@ -433,6 +431,7 @@ p.footer-copyright {
 .socials-list {
   list-style: none;
   padding: 0;
+  margin-top: 36px;
 
   display: flex;
   flex-wrap: wrap;
