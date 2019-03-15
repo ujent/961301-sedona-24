@@ -191,7 +191,7 @@ input[type='radio'].visually-hidden {
 }
 
 .intro-welcome {
-  background-color: #ffffff;
+  background-color: #a9a9a9;
   background-image: url('../img/background-photo.jpg');
   background-position: top center;
   background-repeat: no-repeat;
@@ -752,7 +752,7 @@ p.footer-copyright {
 /* hotels page */
 .hotel-filters {
   min-height: 217px;
-  background-color: #ffffff;
+  background-color: #a9a9a9;
   padding: 28px 74px 0 70px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
