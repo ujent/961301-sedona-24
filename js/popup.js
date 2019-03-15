@@ -6,6 +6,10 @@ var departure = popup.querySelector('[name=departure]');
 var adults = popup.querySelector('[name=adults]');
 var children = popup.querySelector('[name=children]');
 
+window.onload = function() {
+  popup.classList.toggle('open');
+};
+
 var isStorageSupport = true;
 var arrivalStore = '';
 var departureStore = '';
